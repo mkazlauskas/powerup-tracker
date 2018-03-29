@@ -1,0 +1,26 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "rxjs-tslint-rules"
+    ],
+    "jsRules": {},
+    "rules": {
+      "no-unused-expression": [true, "allow-fast-null-checks", "allow-tagged-template"],
+      "no-conditional-assignment": false,
+      "rxjs-no-add": { "severity": "error" },
+      "rxjs-no-operator": { "severity": "error" },
+      "rxjs-no-patched": { "severity": "error" },
+      "rxjs-no-wholesale": { "severity": "error" },
+      "rxjs-no-deep-operators": {"severity": "error"},
+      "rxjs-finnish": {"severity": "warning"},
+      "rxjs-no-ignored-error": {"severity": "warning"},
+      "rxjs-no-ignored-subscribe": {"severity": "warning"},
+      "rxjs-no-subject-unsubscribe": {"severity": "warning"},
+      "rxjs-no-subject-value": {"severity": "warning"},
+      "rxjs-no-unsafe-switchmap": {"severity": "warning"},
+      "rxjs-no-wholesale": {"severity": "error"},
+      "rxjs-throw-error": {"severity": "warning"}
+    },
+    "rulesDirectory": []
+}
