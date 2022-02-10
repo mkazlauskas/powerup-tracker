@@ -31,7 +31,7 @@
     "electron-devtools-installer": "^2.2.3",
     "electron-webpack": "^1.13.0",
     "electron-webpack-ts": "^1.4.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "rxjs-tslint-rules": "^3.15.0",
     "sass-loader": "^6.0.7",
     "tslint": "^5.9.1",
